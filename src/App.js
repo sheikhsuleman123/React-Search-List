@@ -50,7 +50,11 @@ class App extends Component {
      const {list , result} = this.state;
      const items = result.length ? result : list;
      return(
+<<<<<<< HEAD
        <div> <h1>The Wished </h1>
+=======
+       <div> <h1>The Wished List </h1>
+>>>>>>> fb56c2b5a3088ed682f946533a1bbc2d36feee5a
        <ol> {items.map(function(wishes){
         //  return <li> {wishes} </li> 
          return <li key={`${wishes}`}> {wishes} </li> 
