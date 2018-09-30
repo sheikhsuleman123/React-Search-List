@@ -15,12 +15,12 @@ class Todo extends Component {
   updatetext(e){
     this.setState({text2: e.target.value})
   }
-  add(){
-        const {text2, todos} = this.state; 
-        todos.push(text2);
-        this.setState({todos, text2 : " "}); 
-        // console.log('hallo',this.state.todos);
-  }
+  // add(){
+  //       const {text2, todos} = this.state; 
+  //       todos.push(text2);
+  //       this.setState({todos, text2 : " "}); 
+  //       // console.log('hallo',this.state.todos);
+  // }
   edit(index){
    const { todos } = this.state;
    this.setState({text : todos[index]})
